@@ -9,3 +9,13 @@ optimizing problem down untill I have enough time. For this reason , I just add 
 
 
   In my infantile opinion , I believe that Rdh and Rac is changeless in C-A...H-D system. All I have to do is just add another four distance degree and change some variable dimension. I have already rebuild the reading part and distance part, maybe I could get some information  while I finish remainning things.
+  
+2018.6.10
+
+  They use 
+  
+          'IF (IAND(masktypes(id),TYPE_DONOR).EQ.0 .OR. ih.EQ.id) CYCLE '
+          
+  as a sececting algorithm, but to be honest, in most case, ih!= id, so I'll delete this judgement.
+  
+  And for judgment of distance, xxcutoff, I'll use more detail  careful cutoff data as Rcd may be larger than 4.5 \AA
