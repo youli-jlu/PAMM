@@ -18,4 +18,7 @@ optimizing problem down untill I have enough time. For this reason , I just add 
           
   as a sececting algorithm, but to be honest, in most case, ih!= id, so I'll delete this judgement.
   
-  And for judgment of distance, xxcutoff, I'll use more detail  careful cutoff data as Rcd may be larger than 4.5 \angstrom
+  And for judgment of distance, xxcutoff, I'll use more detail  careful cutoff data as Rcd may be larger than 4.5 A.But in current test,
+I still use 4.5A except Rcd.
+
+  OMG, I used whole night handling bug of selecting atoms. I finally find my stupid fault in reading part. Now, I have to test the convergence step and grid number in PAMM algorithm.
