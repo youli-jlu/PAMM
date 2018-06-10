@@ -18,4 +18,4 @@ optimizing problem down untill I have enough time. For this reason , I just add 
           
   as a sececting algorithm, but to be honest, in most case, ih!= id, so I'll delete this judgement.
   
-  And for judgment of distance, xxcutoff, I'll use more detail  careful cutoff data as Rcd may be larger than 4.5 \AA
+  And for judgment of distance, xxcutoff, I'll use more detail  careful cutoff data as Rcd may be larger than 4.5 \angstrom
