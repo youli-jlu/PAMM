@@ -25,4 +25,4 @@ I still use 4.5A except Rcd.
 
 2018.6.20
 
-  I find that we should use "-l" option to set initial QS length step, or it will automatically set a cutoff based on point density.
+  I find that we should use "-l" option to set initial QS length step, or it will automatically set a cutoff based on point density.I try to find a proper length step, but don't have good result.When I use relatively large ls, I get only two clusters, and one of them is the enantiomer of the other one. When I use smaller ls, more and more clusters appear, but none or them have the same scale as  foregoing two. Which result is beter? And should I change some arguments?
