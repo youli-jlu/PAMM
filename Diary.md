@@ -22,3 +22,7 @@ optimizing problem down untill I have enough time. For this reason , I just add 
 I still use 4.5A except Rcd.
 
   OMG, I used whole night handling bug of selecting atoms. I finally find my stupid fault in reading part. Now, I have to test the convergence step and grid number in PAMM algorithm.
+
+2018.6.20
+
+  I find that we should use "-l" option to set initial QS length step, or it will automatically set a cutoff based on point density.
